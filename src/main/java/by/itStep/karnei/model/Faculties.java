@@ -1,9 +1,8 @@
 package by.itStep.karnei.model;
 
-public class Faculties  {
+public class Faculties {
 
     private int id;
-    private Dean dean;
     private String name;
 
     public int getId() {
@@ -14,13 +13,6 @@ public class Faculties  {
         this.id = id;
     }
 
-    public Dean getDean() {
-        return dean;
-    }
-
-    public void setDean(Dean dean) {
-        this.dean = dean;
-    }
 
     public String getName() {
         return name;

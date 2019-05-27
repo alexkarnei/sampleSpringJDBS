@@ -4,20 +4,9 @@ public class Teachers {
 
     private int id;
     private String name;
-    private int premium;
     private int salary;
     private String surName;
-    private boolean  assistant;
-    private boolean professor;
-    private String position;
 
-    public String getPosition() {
-        return position;
-    }
-
-    public void setPosition(String position) {
-        this.position = position;
-    }
 
     public int getId() {
         return id;
@@ -35,13 +24,6 @@ public class Teachers {
         this.name = name;
     }
 
-    public int getPremium() {
-        return premium;
-    }
-
-    public void setPremium(int premium) {
-        this.premium = premium;
-    }
 
     public int getSalary() {
         return salary;
@@ -59,19 +41,4 @@ public class Teachers {
         this.surName = surName;
     }
 
-    public boolean isAssistant() {
-        return assistant;
-    }
-
-    public void setAssistant(boolean assistant) {
-        this.assistant = assistant;
-    }
-
-    public boolean isProfessor() {
-        return professor;
-    }
-
-    public void setProfessor(boolean professor) {
-        this.professor = professor;
-    }
 }

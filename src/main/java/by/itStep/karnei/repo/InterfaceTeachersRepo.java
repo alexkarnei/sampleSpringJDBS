@@ -6,8 +6,8 @@ public interface InterfaceTeachersRepo {
 
     Integer save (Teachers teachers);
 
-    Teachers getId(Integer id);
+    Teachers getById(Integer id);
 
-    Void delete (Integer id);
+    void delete (Integer id);
 
 }
